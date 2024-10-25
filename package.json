@@ -7,5 +7,12 @@
   "license": "ISC",
   "dependencies": {
     "typescript": "^5.1.5"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "@web/dev-server": "^0.4.6"
+  },
+  "scripts": {
+    "start": "web-dev-server --node-resolve --open --watch"
   }
 }
